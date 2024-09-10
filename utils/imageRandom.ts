@@ -1,0 +1,1 @@
+export const generateImageRandom = (id:number)=> `https://picsum.photos/id/${id + 100}/700`
