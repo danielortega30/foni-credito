@@ -30,17 +30,28 @@ Follow the step from documentation of [React Native](https://reactnative.dev/doc
 
 3. Will show the cli of expo
    If yout want to show in your phone, you need to install [Expo Go App](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=es_MX) and Press to show the QR CODE
+
    ```bash
    s
    ```
+
    To run in android simulator Press
+
    ```bash
    a
    ```
+
    To run in ios simulator Press
+
    ```bash
    i
    ```
+
+# Screenshots
+
+![Login Screen](https://github.com/danielortega30/foni-credito/raw/main/screenshots/screenshot-1.png)
+![List Posts Screen](https://github.com/danielortega30/foni-credito/raw/main/screenshots/screenshot-2.png)
+![Details Post Screen](https://github.com/danielortega30/foni-credito/raw/main/screenshots/screenshot-3.png)
 
 # Troubleshooting
 
