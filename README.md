@@ -44,6 +44,12 @@ Follow the step from documentation of [React Native](https://reactnative.dev/doc
    s
    ```
 
+# Screenshots
+
+![Login Screen](https://github.com/danielortega30/foni-credito/raw/main/screenshots/screenshot-1.png)
+![List Posts Screen](https://github.com/danielortega30/foni-credito/raw/main/screenshots/screenshot-2.png)
+![Details Post Screen](https://github.com/danielortega30/foni-credito/raw/main/screenshots/screenshot-3.png)
+
 # Troubleshooting
 
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
