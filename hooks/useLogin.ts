@@ -2,7 +2,6 @@ import { Errors } from "@/constants/Messages";
 import { router } from "expo-router";
 import { useState } from "react";
 
-// Custom Hook para manejar la lógica de login
 export const useLogin = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -41,24 +40,24 @@ export const useLogin = () => {
   };
 
   const onPressLogin = () => {
-    // let isValid = true;
+    let isValid = true;
 
-    // if (!validateEmail(email)) {
-    //   setEmailError(Errors.errorEmail);
-    //   isValid = false;
-    // }
+    if (!validateEmail(email)) {
+      setEmailError(Errors.errorEmail);
+      isValid = false;
+    }
 
-    // if (!validatePassword(password)) {
-    //   setPasswordError(
-    //     Errors.errorPassword
-    //   );
-    //   isValid = false;
-    // }
+    if (!validatePassword(password)) {
+      setPasswordError(
+        Errors.errorPassword
+      );
+      isValid = false;
+    }
 
-    // if (isValid) {
-    //   reset();
+    if (isValid) {
+      reset();
       router.replace("/(blog)/list");
-    // }
+    }
   };
 
   const reset = ()=>{
